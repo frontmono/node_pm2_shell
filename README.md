@@ -6,5 +6,13 @@
 ## How to Use
 - create your own script in sh file like sample.sh
 - use shell script for PM2
+```html
+  #RUN
+  sh#> export SCRIPT_FILE="sample.sh" && pm2 start start.js --name your-daemon-name
 
-  export SCRIPT_FILE="sample.sh" && pm2 start start.js
+  #Stop
+  sh#> pm2 delete your-daemon-name
+
+  #Check Logs
+  sh#> pm2 logs
+```
