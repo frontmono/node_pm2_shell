@@ -1,0 +1,13 @@
+{
+  "name": "node_pm2_shell",
+  "version": "0.0.1",
+  "repository": "https://github.com/frontmono/node_pm2_shell",
+  "description": "coordinate process daemonize using pm2 ",
+  "main": "start.js",
+  "script": {
+    "test": "test"
+  },
+  "author": "frontmono",
+  "license": "MIT",
+  "dependencies": {}
+}
